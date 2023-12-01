@@ -1,8 +1,8 @@
 .background {
   background-image: url("./../../public/background.jpg");
-  background-color: #000000;
-  height: 100vh;
-  z-index: -1;
+  width: 100%;
+  position: fixed;
+  background-position: center;
 }
 
 .main {
@@ -35,13 +35,13 @@
 
 .mainTitle {
   color: white;
-  font-size: 90px;
+  font-size: clamp(30px, 1vw + 50px, 90px);
   font-weight: bold;
 }
 
 .secondaryTitle {
   -webkit-text-stroke: 1px white;
-  font-size: 90px;
+  font-size: clamp(30px, 1vw + 50px, 90px);
   font-weight: bold;
   color: transparent;
 }
