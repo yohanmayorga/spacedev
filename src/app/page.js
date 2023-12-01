@@ -1,5 +1,4 @@
 import styles from "./page.module.css";
-import background from "./../../public/background.jpg";
 
 export default function Home() {
   return (
